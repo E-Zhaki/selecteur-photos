@@ -1,0 +1,31 @@
+#total i {
+    color: red;
+    font-weight: bold;
+}
+
+#photo-list {
+    width: 800px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#photo-list li {
+    margin: 1em;
+    padding: 0.5em;
+    transition: background-color 0.4s;
+}
+
+#photo-list img {
+    display: block;
+    width: 100px;
+}
+
+#photo-list li:hover {
+    background-color: silver;
+}
+
+#photo-list li.selected {
+    background-color: forestgreen;
+}
